@@ -1,0 +1,8 @@
+#form-commentInfo{ width: 100%; } #comment-count{ margin-bottom: 10px; } #comment-input{ width: 80%; height: 2.3em; overflow : scroll} 
+   #submit{ background-color: rgb(231, 188, 68); width: 4.5em; height: 2.0em;; font-size: 15px; font-weight: bold; color: aliceblue; } 
+   #voteUp, #voteDown{ width: 3.5em; height: 1.9em; background-color: aqua; } #comments{ margin-top: 10px; } 
+   .eachComment{ width :100%;  border-bottom: 1px solid #c1bcba; margin-bottom: 2px;} 
+   .eachComment .name{ display: flex; justify-content: space-between; font-size: 1.2em; font-weight: bold;    margin-top: -10px; margin-right: 10px;} 
+   .eachComment .inputValue{ font-size: 0.8em; display: flex; justify-content: center; margin-left: -600px; margin-top: -20px;} 
+   .eachComment    .time{ font-size: 0.7em; color: #c1bcba; font-style: oblique; margin-top: -15px;  float: right; margin-right: 50px; } 
+   .eachComment .voteDiv{ display: flex; justify-content: flex-end;  } .eachComment .deleteComment{ background-color: rgb(245, 197, 38); color: aliceblue; }

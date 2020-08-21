@@ -1,0 +1,41 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JOYLAND</title>
+<link href="css1.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+	function openNewWindow(window) { 
+		open (window,"Mail","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, width=1560, height=768"); 
+		}
+</script>
+</head>
+<body>
+ 	<div class="main">
+    	<div class="logo1">
+      		<a href="JOYLAND.htm"><img src="image/joylandlogo1.jpg"></a>
+		</div>
+		<div class="loginform">
+		<form method="post" action="loginAction.jsp">
+			<img src="image/joylandlogo2.jpg">
+			<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20"><br>
+			<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
+			<input type="submit" id="sumbit" value="로그인">
+			<br>
+			<a href="javascript:openNewWindow('home.html')"> 새창열기</a>
+		</form>
+			<p class="or">또는</p>
+			<div>
+			 	<p class="a-1">계정이 없으신가요?</p>
+				<a href="join.jsp" class="a-2">
+				<p>가입하기</p></a>
+				
+			</div>
+		</div>
+			
+	</div>
+	  
+
+</body>
+</html>
